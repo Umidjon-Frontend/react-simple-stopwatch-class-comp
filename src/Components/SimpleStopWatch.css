@@ -1,0 +1,70 @@
+body{
+  background-color: #e9c46a;
+}
+.stopwatch-container{
+  width: 100%;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 15px;
+}
+.stopwatch-box{
+  padding: 20px 30px;
+  text-align: center;
+}
+.box-header{
+  background-color: #8338ec;
+  color: #fff;
+  border-radius: 12px 12px 0 0;
+}
+.box-header h1{
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.box-body{
+  background-color: #8ecae6;
+  color: #fff;
+  padding: 25px 0;
+}
+.box-body h1{
+  font-size: 4rem;
+}
+.box-footer{
+  background-color: #219ebc;
+  padding: 25px 100px;
+  border-radius: 0 0 12px 12px;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-wrapper .btn{
+  border: 2px solid #fff;
+  padding: 8px 16px;
+  color: #219ebc;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-wrapper .btn:hover{
+  background-color: #219ebc;
+  color: #fff;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+  .stopwatch-container{
+    width: 100%;
+    max-width: 400px;
+  }
+  .box-header h1{
+    font-size: 1.5rem;
+  }
+}
